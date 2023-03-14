@@ -16,7 +16,6 @@ main{
 }
 
 h2{
-    color: white;
     margin: 0 0 10px 50px;
 }
 
@@ -35,7 +34,9 @@ h2{
     align-items: end;
     border-radius: 60px;
     width: 7%;
-    transition: all 1.5s;
+    font-size: 1rem;
+    transition: all .7s ease-in;
+    color: rgba(240, 248, 255, 0);
 }
 
 .box:hover{
@@ -45,7 +46,7 @@ h2{
 #box1{
     background: url(../imgs/photo-1558979158-65a1eaa08691.avif) no-repeat;
     background-position: center;
-    width: 70%;
+    
 }
 #box2{
     background: url(../imgs/photo-1572276596237-5db2c3e16c5d.avif) no-repeat;
@@ -64,4 +65,16 @@ h2{
     background-position: center;
 }
 
+.active{
+    width: 70%;
+    color: white;
+}
 
+
+@media (max-width: 480px){
+
+    #box4,
+    #box5{
+        display: none;
+    }
+}
