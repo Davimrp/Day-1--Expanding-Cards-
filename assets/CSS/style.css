@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    margin: 0 0 10px 50px;
+}
+
+.container{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100%;
+    display: flex;
+    align-items: end;
+    border-radius: 60px;
+    width: 7%;
+    transition: all 1.5s;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+#box1{
+    background: url(../imgs/photo-1558979158-65a1eaa08691.avif) no-repeat;
+    background-position: center;
+    width: 70%;
+}
+#box2{
+    background: url(../imgs/photo-1572276596237-5db2c3e16c5d.avif) no-repeat;
+    background-position: center;
+}
+#box3{
+    background: url(../imgs/photo-1507525428034-b723cf961d3e.avif) no-repeat;
+    background-position: center;
+}
+#box4{
+    background: url(../imgs/photo-1551009175-8a68da93d5f9.avif) no-repeat;
+    background-position: center;
+}
+#box5{
+    background: url(../imgs/photo-1549880338-65ddcdfd017b.avif) no-repeat;
+    background-position: center;
+}
+
+
